@@ -120,7 +120,7 @@ public:
 	std::vector<std::shared_ptr<ILight>>	m_vpLights;						///< lights
 	
 private:
-	Vec3f									m_bgColor	= RGB(0, 0, 0);    	///< background color
+	Vec3f									m_bgColor	= RGB(1, 1, 1);    	///< background color
 	std::vector<std::shared_ptr<CPrim>> 	m_vpPrims;						///< primitives
 #ifdef ENABLE_BSP
 	std::unique_ptr<BSPTree>				m_pBSPTree	= nullptr;

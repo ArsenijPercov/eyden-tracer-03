@@ -1,6 +1,6 @@
 #pragma once
 
-#cmakedefine ENABLE_BSP	
+//#cmakedefine ENABLE_BSP	
 
 #include <optional>
 #include <vector>
